@@ -1,0 +1,182 @@
+
+.conteudo_do_cardapio .cardapio{
+    background-color: white;
+    display: flex;
+    flex-direction: column; 
+    width: 100%;  
+    gap: .3em
+}
+.conteudo_do_cardapio .cardapio .conteudo{
+    display: none;
+}
+.conteudo_do_cardapio .cardapio h1{
+    padding: 1em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .08);
+    border-radius: .3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    transition: .3s;
+}
+.conteudo_do_cardapio .cardapio h1:hover{
+    transition: .3s;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .08);
+}
+.conteudo_do_cardapio .cardapio h1 span{    
+    padding: .3em;
+    border-radius: 50%;
+    transition: .3s;
+    cursor: pointer;
+}
+.conteudo_do_cardapio .cardapio h1 span:hover{
+    transition: .3s;
+    background-color: #f8f8f8;
+}
+.conteudo_do_cardapio .cardapio ul li{
+    background-color: white;
+    border-radius: .3em;
+    padding: .8em;
+    transition: .3s;
+    z-index: 1;
+    list-style: none;
+    gap: .3em;
+}
+.conteudo_do_cardapio .cardapio ul li:hover{
+    transition: .3s;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .08);
+    z-index: 2;
+    margin: .3em 0;
+}
+.conteudo_do_cardapio .cardapio ul li figure{
+    width: 100px;
+    overflow: hidden;
+    border-radius: .5em;
+}
+.conteudo_do_cardapio .cardapio ul li figure img{
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+.conteudo_do_cardapio .cardapio ul li .descricao{
+    gap: 1em;
+    padding: 1em;
+}
+.conteudo_do_cardapio .cardapio ul li .descricao h2{
+    font-size: 1em;    
+    white-space: pre;
+    text-align: left;
+}
+.conteudo_do_cardapio .cardapio ul li .descricao cite{
+    font-size: .8em;
+}
+.conteudo_do_cardapio .cardapio ul li h2 cite{
+    background-color: rgb(255, 183, 50);
+    color: white;
+    padding: .5em;
+    font-size: .8em;
+    border-radius: .5em;
+    font-style: normal;
+}
+.conteudo_do_cardapio .cardapio ul li span{
+    padding: .3em;
+    border-radius: 50%;
+    transition: .3s;
+    cursor: grab;
+}
+.conteudo_do_cardapio .cardapio ul li span:hover{
+    transition: .3s;
+    background-color: #f8f8f8;
+}
+.conteudo_do_cardapio .cardapio ul li .preco{
+    padding: 1em;
+    gap: .5em;
+}
+.conteudo_do_cardapio .cardapio ul li .preco cite{
+    padding: .5em;
+    background-color: #f8f8f8;
+    color: #666;
+}
+.conteudo_do_cardapio .cardapio ul li .preco h3{    
+    font-size: 1em;
+}
+.conteudo_do_cardapio .cardapio ul li input{
+    border: none;
+    padding: 1em;
+    color: #666;
+    transition: .3s;
+}
+.conteudo_do_cardapio .cardapio ul li input:hover{
+    transition: .3s;
+    border-bottom: 1px solid rgb(121, 178, 247);
+}
+.conteudo_do_cardapio .cardapio button{    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+    border-radius: .5em;
+    cursor: pointer;
+    padding: .5em;
+    gap: 1em
+}
+.conteudo_do_cardapio .cardapio ul li{
+    border: 1px solid #f0f0f0;
+    border-radius: .8em;
+}
+.conteudo_do_cardapio .cardapio ul li .pedir{
+    background-color: white;
+    border: 1px solid yellowgreen;
+    color: yellowgreen;
+}
+.conteudo_do_cardapio .cardapio ul li .pedir span{
+    padding: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: yellowgreen;
+    cursor: pointer;
+    transition: .3s;
+}
+.conteudo_do_cardapio .cardapio ul li .pedir:hover span{
+    background-color: yellowgreen;
+    color: white;
+}
+
+.conteudo_do_cardapio .cardapio .controles ul li .pedir:hover span{
+    background-color: yellowgreen;
+    color: white;
+}
+
+.conteudo_do_cardapio .cardapio .controles ul li .adicionar{
+    background-color: white;
+    border: 1px solid yellowgreen;
+    color: yellowgreen;
+}
+.conteudo_do_cardapio .cardapio .controles ul li .adicionar span{
+    padding: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+.conteudo_do_cardapio .cardapio .controles ul li .adicionar:hover span{
+    background-color: yellowgreen;
+    color: white;
+}
+
+.conteudo_do_cardapio .cardapio .itens li .remover{
+    background-color: white;
+    border: 1px solid salmon;
+    color: salmon;
+}
+.conteudo_do_cardapio .cardapio .itens li .remover span{
+    padding: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+.conteudo_do_cardapio .cardapio .itens li .remover:hover span{
+    background-color: salmon;
+    color: white;
+}
