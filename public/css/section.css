@@ -124,6 +124,31 @@ header .social img:hover{
     margin: 0;
 }
 
+/* BOTOES TIPO STORIES */
+
+.botoes_stories{
+    padding: 1em;
+}
+.botoes_stories .stories{    
+    padding: .1em;
+    border-radius: 50%;    
+    background-color: #4158D0;
+    background-image: linear-gradient(225deg, #d0415b 0%, #C850C0 46%, #FFCC70 100%);
+    cursor: pointer;
+}
+.botoes_stories .stories .circles{
+    transition: .3s;
+    padding: 2em;
+    border-radius: 50%;
+    border: 5px solid white;
+    background-color: #f0f0f0;
+}
+
+.botoes_stories .stories:hover .circles{
+    transition: .5s;
+    transform: scale(1.1);
+}
+
 /* CARDS */
 .cards{
     gap: 1em;
